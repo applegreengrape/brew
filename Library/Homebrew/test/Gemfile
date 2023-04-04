@@ -9,6 +9,6 @@ gem "rspec-wait", require: false
 gem "rubocop", HOMEBREW_RUBOCOP_VERSION
 
 group :coverage do
-  gem "codecov", require: false
+  gem "codecov", ">= 0.1.21", require: false
   gem "simplecov", require: false
 end
